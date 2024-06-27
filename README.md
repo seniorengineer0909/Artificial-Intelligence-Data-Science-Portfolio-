@@ -88,16 +88,6 @@ Developed **(convolutional) conditional variational autoencoder (CVAE)**-based h
 
 Built a tracker that recognizes the faces of registered individuals to measure the time they spend watching the camera (or watching TV in the final application). Developed on top of [Keras-OpenFace](https://github.com/iwantooxxoox/Keras-OpenFace), a project converting OpenFace from its original Torch implementation to a Keras version, the current version of TTT (TTT_v3) showed great accuracy of ~ 88% in recognizing my face + measuring time me watching a camera in a video format. In the upcoming versions, TTT will be implemented into a real-time module to be mounted on a TV to finalize the project.
 
-<p align="center">
-<img src="TV_time_tracker/Readme_images/TTT_v2_summary.png" width="80%">
-</p>
-<p align="center">
-<img src="TV_time_tracker/Readme_images/TTT_v3_sean_test.gif" width="35%">
-</p>
-<p align="center">
-<img src="TV_time_tracker/Readme_images/TTT_v3_sean_test_result.png" width="100%">
-</p>
-
 ### [Online-image-based Happy Dog Classifier (HDC_v2)][27] (or [*Full repository*](https://github.com/sungsujaing/Happy_Dog_Detection))
 
 Built **a customized CNN model with ResNET50-like residual blocks**. Trained it with a small image set that was prepared from Google using google-images-download module. After searching for the optimized hyperparameters, the final model could achieve ~ 90% accuracy on a test set and the model was eventually applied to predict the happiness of my puppy, Lucky. Many of the mislabeled images were turned out to be very difficult even for me to classify as happy or sad. Acknowledging the difficulties associated with reading dogs' emotions, I have to admit that the quality of the downloaded training data must have been compromised to some degree. Nonetheless, the best model/weights have been saved.
